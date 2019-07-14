@@ -4,8 +4,8 @@ git status                              # aktueller Status
 git log                                 # Log
 git clone <url> <where to clone>        # Kopieren einer repository from einem Projekt z.B. GitHub repository
 
-git add file                            # hinzufügen vom File zu repostoty
-git add -A                              # alle Files hinzufügen
+git add file                            # hinzufügen vom File zu zu staging repostoty
+git add -A                              # alle Files zu staging directory hinzufügen
 git reset file                          # entfernt ein File aus der repository
 git reset                               # entfernt alle Dateien aus repository
 
@@ -15,3 +15,8 @@ git remote -v                           # Viewing Information about remote repos
 git branch -a                           # Viewing Information about branch
 
 git diff				# alle Änderungen anzeigen lassen
+
+git branch				# gibt alle aktive branches
+
+git pull origin master
+git puch origin master
