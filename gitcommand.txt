@@ -17,9 +17,19 @@ git branch -a                           # Viewing Information about branch
 git diff				# alle Änderungen anzeigen lassen
 
 git pull origin master
-git puch origin master
+git push origin master
 
 git branch				# gibt alle aktive branches
 
 git branch name-of-branch               # create a branch for the future
-git checkout name-of-branch.            # checkout the branch
+git checkout name-of-branch.            # checkout/switch to the branch
+
+git remote add origin https://github.com/abl-xxl/ceres-tst.git # Branch initiieren
+git push -u origin master                                      # Upload to the server
+
+***
+
+
+
+
+
