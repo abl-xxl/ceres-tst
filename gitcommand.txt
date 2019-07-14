@@ -16,7 +16,10 @@ git branch -a                           # Viewing Information about branch
 
 git diff				# alle Änderungen anzeigen lassen
 
-git branch				# gibt alle aktive branches
-
 git pull origin master
 git puch origin master
+
+git branch				# gibt alle aktive branches
+
+git branch name-of-branch               # create a branch for the future
+git checkout name-of-branch.            # checkout the branch
