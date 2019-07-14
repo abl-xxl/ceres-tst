@@ -1,7 +1,10 @@
-git status        # aktueller Status 
+Video Tutorial: https://www.youtube.com/watch?v=HVsySz-h9r4
 
-Git add file      # hinzufügen vom File zu repostoty
-Git add -A        # alle Files hinzufügen
-Git reset file    # entfernt ein File aus der repository
-Git reset         # entfernt alle Dateien aus repository
+git status              # aktueller Status 
 
+Git add file            # hinzufügen vom File zu repostoty
+Git add -A              # alle Files hinzufügen
+Git reset file          # entfernt ein File aus der repository
+Git reset               # entfernt alle Dateien aus repository
+
+git commit -m " ..."    # Commiten zu Repository
