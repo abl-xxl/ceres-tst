@@ -1,10 +1,17 @@
 Video Tutorial: https://www.youtube.com/watch?v=HVsySz-h9r4
 
-git status              # aktueller Status 
+git status                              # aktueller Status 
+git log                                 # Log
+git clone <url> <where to clone>        # Kopieren einer repository from einem Projekt z.B. GitHub repository
 
-Git add file            # hinzufügen vom File zu repostoty
-Git add -A              # alle Files hinzufügen
-Git reset file          # entfernt ein File aus der repository
-Git reset               # entfernt alle Dateien aus repository
+git add file                            # hinzufügen vom File zu repostoty
+git add -A                              # alle Files hinzufügen
+git reset file                          # entfernt ein File aus der repository
+git reset                               # entfernt alle Dateien aus repository
 
-git commit -m " ..."    # Commiten zu Repository
+git commit -m " ..."                    # Commiten zu Repository
+
+git remote -v                           # Viewing Information about remote repository 
+git branch -a                           # Viewing Information about branch
+
+git diff				# alle Änderungen anzeigen lassen
